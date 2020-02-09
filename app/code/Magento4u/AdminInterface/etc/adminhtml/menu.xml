@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magento4u_AdminInterface::admininterface_parent" title="Magento4u AdminInterface" translate="title" module="Magento4u_AdminInterface" sortOrder="20"  resource="Magento4u_AdminInterface::admininterface_parent"/>
+        <add id="Magento4u_AdminInterface::admininterface_child" title="AdminInterface Display" action="admininterface/index/index" translate="title" module="Magento4u_AdminInterface" sortOrder="10" parent="Magento4u_AdminInterface::admininterface_parent" resource="Magento4u_AdminInterface::admininterface_child" />
+    </menu>
+</config>
