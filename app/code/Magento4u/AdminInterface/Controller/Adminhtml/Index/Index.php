@@ -45,7 +45,7 @@ class Index extends Action
     public function execute()
     {
         $this->_view->loadLayout();
-        $this->_setActiveMenu('Magento4u_AdminInterface::product_onboarding_widget');
+        $this->_setActiveMenu('Magento4u_AdminInterface::admininterface_child');
         $this->_view->getPage()->getConfig()->getTitle()->set(__('Admin Interface Display'));
         $this->_view->renderLayout();
     }
